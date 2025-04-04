@@ -42,7 +42,7 @@ class Bank:
                 print("Invalid Identification Number")
 
         except:
-            inp = ("Invalid Identification Number!\n(1) To Try A gain\n(2) To Exit")
+            inp = input("Invalid Identification Number!\n(1) To Try A gain\n(2) To Exit")
             if inp == "1":
                 cls.change_password()
             elif inp == "2":
